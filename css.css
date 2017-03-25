@@ -24,8 +24,9 @@ i {margin: 25px; }
 }
 @media all and (max-width: 576px)  {
     .superbold {
-        font-size: 2em;
+        font-size: 3em;
         line-height: 95%;
+        font-weight: bold;
     }
 
 }
