@@ -6,3 +6,26 @@ body { padding-bottom: 70px; } /*adjusts bottom padding to correct navigation ba
 #projects { margin-top: 100px; }
 #bio { margin-top: 100px; }
 i {margin: 25px; }
+
+
+
+
+/* responsive text formatting of the header text*/
+.superbold {
+  font-size: 5em;
+  line-height: 95%;
+}
+
+@media all and (max-width: 992px) and (min-width: 577px) {
+    .superbold{
+        font-size: 3.5em;
+        line-height: 95%;
+    }
+}
+@media all and (max-width: 576px)  {
+    .superbold {
+        font-size: 2em;
+        line-height: 95%;
+    }
+
+}
