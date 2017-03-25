@@ -19,7 +19,6 @@ i {margin: 25px; }
 @media all and (max-width: 992px) and (min-width: 577px) {
     .superbold{
         font-size: 4em;
-        font-weight: bold;
         line-height: 95%;
     }
 }
